@@ -50,7 +50,7 @@ public class AmazonSearach {
 
 	@BeforeMethod
 	public void launch() throws IOException {
-		TestBaseClass.browserLauch("edge");
+		TestBaseClass.browserLauch("chrome");
 		TestBaseClass.loadUrl(TestBaseClass.getProperty("sitelink"));
 	}
 	
